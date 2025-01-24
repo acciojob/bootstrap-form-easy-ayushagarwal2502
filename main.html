@@ -10,28 +10,28 @@
 <body>
 	<div>
 	<h1>Intership Form</h1>
-		<label for="first-name-input">First Name</label>
+		<label for="first-name-input"  class='form-label'>First Name</label>
 	    <input type="text" class="form-control" id="first-name-input" required>
 		<div class="invalid-feedback">
           First name required!
         </div>
-		<label for="last-name-input">Last Name</label>
+		<label for="last-name-input"  class='form-label'>Last Name</label>
 		<input type="text" class="form-control"  id="last-name-input" required>
 		<div class="invalid-feedback">
           Last name required!
         </div>
-		<label for="email-input">Email Address</label>
+		<label for="email-input"  class='form-label'>Email Address</label>
 		<input type="email" class="form-control" id="email-input" required>
 		<div class="invalid-feedback">
           Email required!
         </div>
-		<label for="college-input">College</label>
+		<label for="college-input"  class='form-label'>College</label>
 		<input type="text" class="form-control"  id="college-input" required>
 		<div class="invalid-feedback">
           Please provide a valid College
         </div>
-		<label for="graduation-year-input">Graduation Year</label>
-		<select class="form-control" id="graduation-year-input" required >
+		<label for="grad-year-input"  class='form-label' >Graduation Year</label>
+		<select class="form-control" id="grad-year-select" required >
 			<option>Choose...</option>
 			<option>2020</option>
 			<option>2021</option>
@@ -41,13 +41,13 @@
 		<div class="invalid-feedback">
           Please select a valid Graduation Year
         </div>
-		<label for="roll-no-input">Roll No.</label>
+		<label for="roll-no-input"  class='form-label' >Roll No.</label>
 		<input type="text" class="form-control" id="roll-no-input" required><br>
 		<div class="invalid-feedback">
           Please provide a valid Roll no.
         </div>
 		<input type="checkbox" id="conditions-checkbox" required>
-		<label>Agree to terms and conditions</label><br>
+		<label class='form-label' >Agree to terms and conditions</label><br>
 		<button type="submit">Submit form</button>
 	</div>
 	<!-- the entire body must be written by student -->
